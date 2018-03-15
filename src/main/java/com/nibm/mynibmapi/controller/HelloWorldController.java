@@ -4,11 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/helloworld/")
 public class HelloWorldController {
 
     @RequestMapping(name = "/")
     public String sayHello(){
-        return "Hello World Working...";
+        return "<html><body><h3 style=\"color:blue\">NIBM Mobile Application Development Module Project. <br>Group Proxima<br>Developed this REST API with SpringMVC by Janith Ganewatta :janithsg@gmail.com</h3></body></html>";
     }
 }
